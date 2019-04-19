@@ -50,5 +50,5 @@ function doVerify() {
     })
 }
 
-doVerify()
-// doSend()  //Uncomment to send
+// doVerify()
+doSend()  //Uncomment to send
