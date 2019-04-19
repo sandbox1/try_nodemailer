@@ -1,0 +1,26 @@
+{
+  "name": "try_nodemailer",
+  "version": "1.0.0",
+  "description": "Node Mailer",
+  "main": "index.js",
+  "scripts": {
+    "compile": "./node_modules/.bin/tsc",
+    "start": "npm run compile && NODE_TLS_REJECT_UNAUTHORIZED=0 node dist/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://kleencut@github.com/sandbox1/try_nodemailer.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sandbox1/try_nodemailer/issues"
+  },
+  "homepage": "https://github.com/sandbox1/try_nodemailer#readme",
+  "dependencies": {
+    "@types/nodemailer": "^4.6.7",
+    "env2": "^2.2.2",
+    "nodemailer": "^6.1.0",
+    "typescript": "^3.4.3"
+  }
+}
